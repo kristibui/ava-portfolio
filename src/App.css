@@ -1,0 +1,18 @@
+@font-face {
+  font-family: 'OpenSans';
+  src: local('OpenSans'), url(./fonts/OpenSans-Regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Lora';
+  src: local('Lora'), url(./fonts/Lora-VariableFont_wght.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Merriweather';
+  src: local('Merriweather'), url(./fonts/Merriweather-Regular.ttf) format('truetype');
+}
+
+.container{
+  padding: 80px 100px 30px 100px;
+}

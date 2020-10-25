@@ -1,0 +1,15 @@
+.footer-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.credits {
+    font-size: 11px;
+    color: grey;
+    font-family: OpenSans;
+}
+
+.my-name {
+    color: black;
+}

@@ -1,0 +1,52 @@
+.blurb-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 90px;
+}
+
+
+/** Photo styling **/
+.bio-container {
+    max-width: 500px;
+}
+
+.bio-picture {
+    position: relative;
+}
+
+.ava-pic {
+    width: 100%;
+}
+
+
+/** Text styling **/
+.main-text-container {
+    max-width: 800px;
+    text-align: right;
+}
+
+.main-desc{
+    width: 100%;
+    font-size: 50px;
+    font-family: Merriweather;
+}
+
+.desc-subtext {
+    margin-top: 40px;
+    font-size: 20px;
+    font-family: OpenSans;
+}
+
+.learn-more-btn {
+    margin-top: 20px;
+    height: 45px;
+    width: 120px;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    border: solid 1px #b1c887;
+    background-color: black;
+    border-radius: 8px;
+    font-family: OpenSans;
+}
