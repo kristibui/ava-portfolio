@@ -16,3 +16,16 @@
 .container{
   padding: 80px 100px 30px 100px;
 }
+
+h1, h2 {
+  font-family: 'Merriweather';
+}
+
+h1 {
+  font-size: 40px;
+}
+
+p {
+  font-family: 'OpenSans';
+  font-size: 23px;
+}

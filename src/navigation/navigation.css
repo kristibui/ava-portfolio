@@ -12,11 +12,10 @@
     text-decoration: none;
 }
 
-
 /** Links **/
 .nav-link {
     margin-right: 30px;
-    font-size: 22px;
+    font-size: 23px;
     font-family: OpenSans;
     color: black;
     text-decoration: none;
@@ -25,3 +24,32 @@
 .twitter-icon {
     color: black;
 }
+
+.right-links {
+    display: flex;
+}
+
+.portfolio-sub-links > ul {
+    display: none;
+}
+
+.portfolio-sub-links:hover {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.portfolio-sub-links:hover > ul {
+    display: block;
+    list-style-type: none;
+    position: absolute;
+    margin-top: 35px;
+}
+
+.portfolio-sub-links:hover > ul > li > a {
+    text-decoration: none;
+    font-size: 18px;
+    font-family: OpenSans;
+    color: black;
+}
+

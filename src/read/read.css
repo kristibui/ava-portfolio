@@ -1,0 +1,43 @@
+.read-container {
+    margin-top: 90px;
+}
+
+.articles-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+.article-sub-container {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 30%;
+}
+
+.article-img-container {
+    margin-top: 50px;
+    height: 325px;
+    background-color: #590c00;
+}
+
+.article-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.article-text-container {
+    max-width: 450px;
+}
+
+.article-headline {
+    color: #8b1000;
+    text-decoration: none;
+}
+
+.article-headline:hover {
+    color: #590c00;
+    text-decoration: underline;
+}

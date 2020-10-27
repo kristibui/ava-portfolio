@@ -1,14 +1,13 @@
 .blurb-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
     margin-top: 90px;
 }
 
 
 /** Photo styling **/
 .bio-container {
-    max-width: 500px;
+    flex-basis: 50%;
 }
 
 .bio-picture {
@@ -22,8 +21,8 @@
 
 /** Text styling **/
 .main-text-container {
-    max-width: 800px;
-    text-align: right;
+    text-align: left;
+    flex-basis: 50%;
 }
 
 .main-desc{
@@ -45,8 +44,8 @@
     color: white;
     font-size: 15px;
     font-weight: bold;
-    border: solid 1px #b1c887;
-    background-color: black;
+    border: none;
+    background-color: #8b1000;
     border-radius: 8px;
     font-family: OpenSans;
 }

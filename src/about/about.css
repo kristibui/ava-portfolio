@@ -1,0 +1,50 @@
+.about-container {
+    margin-top: 90px;
+    display: flex;
+    flex-direction: column;
+}
+
+.about-bio-image-container {
+    display: flex;
+    justify-content: center;
+}
+
+.about-bio-image {
+    height: 300px;
+    width: 300px;
+}
+
+.about-bio-image > img {
+    border-radius: 50%;
+    width:100%;
+    height:100%;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.about-link {
+    color: #8b1000;
+    text-decoration: none;
+}
+
+.about-link:hover {
+    color: #590c00;
+    text-decoration: underline;
+}
+
+.learn-more {
+    margin-top: 80px;
+    font-family: Merriweather;
+    font-size: 25px;
+    text-align: center;
+}
+
+.learn-more a {
+    color: #8b1000;
+    text-decoration: none;
+}
+
+.learn-more a:hover {
+    color: #590c00;
+    text-decoration: underline;
+}
