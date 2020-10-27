@@ -68,7 +68,8 @@ const ReadComponent = () => {
                     </h2>
                     <span>Muckrock</span>
 
-                    <p>Cool description goes here!
+                    <p>Presidential contenders have pledged to expand homeland security funding, 
+                        but existing evaluations leave questions about their effectiveness.
                     </p>
                 </div>
             </div>
