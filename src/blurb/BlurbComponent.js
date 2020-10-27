@@ -26,7 +26,7 @@ const BlurbComponent = () => {
                 <div className='bio-picture'>
                     <img className='ava-pic'
                         src={headshot}
-                        alt='Main photo of Ava.'></img>
+                        alt='Ava in the snow'></img>
                 </div>
             </div>
 

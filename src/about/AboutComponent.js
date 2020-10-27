@@ -8,7 +8,7 @@ const AboutComponent = () => {
 
             <div className='about-bio-image-container'>
                 <div className='about-bio-image'>
-                    <img src={ava_about_photo} />
+                    <img src={ava_about_photo} alt='Ava in Barcelona'/>
                 </div>
             </div>
 

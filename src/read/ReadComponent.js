@@ -17,7 +17,7 @@ const ReadComponent = () => {
                 <div className='article-sub-container'>
 
                     <div className='article-img-container'>
-                        <img className='article-img' src={mw} />
+                        <img className='article-img' src={mw} alt='Mayor Marty Walsh'/>
                     </div>
 
                     
@@ -36,7 +36,7 @@ const ReadComponent = () => {
                 <div className='article-sub-container'>
 
                     <div className='article-img-container'>
-                        <img className='article-img' src={bc} />
+                        <img className='article-img' src={bc} alt='Birth control'/>
                     </div>
 
                     
@@ -57,7 +57,7 @@ const ReadComponent = () => {
                 <div className='article-sub-container'>
                     
                     <div className='article-img-container'>
-                        <img className='article-img' src={mr} />
+                        <img className='article-img' src={mr} alt='Counterrorism program'/>
                     </div>
 
                     <h2>

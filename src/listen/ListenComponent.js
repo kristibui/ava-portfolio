@@ -18,7 +18,7 @@ const ListenComponent = () => {
                 <div className='audio-sub-container'>
 
                     <div className='audio-img-container'>
-                        <img className='audio-img' src={otm_m} />
+                        <img className='audio-img' src={otm_m} alt='militia'/>
                     </div>
 
                     <h2>
@@ -39,7 +39,7 @@ const ListenComponent = () => {
 
                 <div className='audio-sub-container'>
                     <div className='audio-img-container'>
-                        <img className='audio-img' src={otm_cr} />
+                        <img className='audio-img' src={otm_cr} alt='critical race theory'/>
                     </div>
 
                     <h2>
@@ -58,7 +58,7 @@ const ListenComponent = () => {
 
                 <div className='audio-sub-container'>
                     <div className='audio-img-container'>
-                        <img className='audio-img' src={nhpr_hs} />
+                        <img className='audio-img' src={nhpr_hs} alt='high school students'/>
                     </div>
 
                     <h2>
@@ -75,7 +75,7 @@ const ListenComponent = () => {
 
                 <div className='audio-sub-container'>
                     <div className='audio-img-container'>
-                        <img className='audio-img' src={nhpr_b} />
+                        <img className='audio-img' src={nhpr_b} alt='black students'/>
                     </div>
 
                     <h2>
@@ -95,7 +95,7 @@ const ListenComponent = () => {
 
                 <div className='audio-sub-container'>
                     <div className='audio-img-container'>
-                        <img className='audio-img' src={nhpr_cvd} />
+                        <img className='audio-img' src={nhpr_cvd} alt='new hampshire covid'/>
                     </div>
 
                     <h2>
