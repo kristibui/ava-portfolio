@@ -1,5 +1,5 @@
 import './about.css';
-import ava_about_photo from './ava-temp.jpg';
+import ava_about_photo from './ava_about.jpg';
 
 const AboutComponent = () => {
 
