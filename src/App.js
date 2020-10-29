@@ -11,10 +11,6 @@ import ListenComponent from './listen/ListenComponent';
 
 function App() {
 
-  useEffect(() => {
-    document.title = "Ava Sasani | Portfolio"
-  }, [])
-
   return (
     <div className="container">
       <NavigationComponent></NavigationComponent>
