@@ -10,8 +10,8 @@ const ReadComponent = () => {
 
             <h1>Read</h1>
 
-            <p>Some of my written works below, including pieces from <a className='article-headline' href='https://www.wbur.org/'>WBUR</a> and <a className='article-headline' href='https://www.muckrock.com/'>Muckrock!</a></p>
-
+            <p>Some of my written works below, including pieces from the <a className='article-headline' href='https://www.bostonglobe.com/'>Boston Globe</a> and <a className='article-headline' href='https://www.wbur.org/'>WBUR</a>.</p>
+            
             <div className='articles-container'>
 
                 <div className='article-sub-container'>

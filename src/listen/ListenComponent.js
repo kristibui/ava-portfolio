@@ -4,6 +4,8 @@ import otm_cr from './otm_cr.jpg';
 import nhpr_hs from './nhpr_hs.jpg';
 import nhpr_b from './nhpr_b.jpg';
 import nhpr_cvd from './nhpr_cvd.jpg';
+import otm_pp from './pastor_plight.jpg';
+import otm_td from './two_day_otm.jpeg';
 
 const ListenComponent = () => {
 
@@ -15,6 +17,49 @@ const ListenComponent = () => {
             <p>Some of my audio works below, including pieces from <a className='audio-headline' href='https://www.wnycstudios.org/podcasts/otm'>On The Media</a> and <a className='audio-headline' href='https://www.nhpr.org/'>New Hampshire Public Radio (NHPR)!</a></p>
 
             <div className='audio-container'>
+
+            <div className='audio-sub-container'>
+
+                <div className='audio-img-container'>
+                    <img className='audio-img' src={otm_td} alt='militia'/>
+                </div>
+
+                <h2>
+                    <a className='audio-headline' href='https://www.wnycstudios.org/podcasts/otm/episodes/investigating-toll-2-day-shipping?fbclid=IwAR2LHTFYdLs-gp-G9a52gsXQygTzuYb_QngRUtWHyPoIAxPMUtfRBDyB3JE'>
+                    Investigating the Toll of 2-Day Shipping
+                    </a>
+                </h2>
+                <span>On The Media</span>
+
+                <p>Reveal -- a product of the Center for Investigative Reporting -- built the <a className='audio-headline' href='https://revealnews.org/topic/behind-the-smiles/'>“Behind the Smiles Network”</a> enlisting local 
+                news organizations to investigate their own Amazon facilities with the help of 
+                data supplied to them by Reveal. In this podcast extra, Bob talks with Byard Duncan, 
+                Reveal's engagement and collaborations reporter and the liaison between his team's national reporters and the local reporting network.
+                </p>
+            </div>
+
+                <div className='audio-sub-container'>
+
+                    <div className='audio-img-container'>
+                        <img className='audio-img' src={otm_pp} alt='militia'/>
+                    </div>
+
+                    <h2>
+                        <a className='audio-headline' href='https://www.wnycstudios.org/podcasts/otm/segments/pastors-plight-address-vaccine-skepticism-black-communities-on-the-media?fbclid=IwAR1iw1FadvOreapQ-HYq6q1eIfe_FDqjI9pi4-tWebyY9hlGZDdqxtSTuBA'>
+                        A Pastor's Plight to Address Vaccine Skepticism in Black Communities"?
+                        </a>
+                    </h2>
+                    <span>On The Media</span>
+
+                    <p>In Pittsburgh, Father Paul Abernathy is working to address vaccine skepticism in predominantly 
+                        Black neighborhoods, focusing on earning trust by sharing information, meeting people where they 
+                        are, and recruiting people to participate in vaccine trials. He tells Bob how community engagement 
+                        will be critical to the rollout of a vaccine, and explains how his nonprofit works with researchers 
+                        to convince skeptics.
+                    </p>
+                </div>
+
+
                 <div className='audio-sub-container'>
 
                     <div className='audio-img-container'>

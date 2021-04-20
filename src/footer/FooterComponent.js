@@ -6,7 +6,7 @@ const FooterComponent = () => {
         <div className='footer-container'>
 
             <div className='credits'>
-                © 2020 Ava Sasani | Site made with ❤️ by <a className='my-name' href='https://kristibui.com/'>Kristi Bui.</a>
+                © 2021 Ava Sasani | Made with ❤️ by <a className='my-name' href='https://kristibui.com/'>Kristi Bui.</a>
             </div>
 
         </div>
