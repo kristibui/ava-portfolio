@@ -21,7 +21,7 @@ const ListenComponent = () => {
             <div className='audio-sub-container'>
 
                 <div className='audio-img-container'>
-                    <img className='audio-img' src={otm_td} alt='militia'/>
+                    <img className='audio-img' src={otm_td} alt='two day shipping'/>
                 </div>
 
                 <h2>
@@ -41,7 +41,7 @@ const ListenComponent = () => {
                 <div className='audio-sub-container'>
 
                     <div className='audio-img-container'>
-                        <img className='audio-img' src={otm_pp} alt='militia'/>
+                        <img className='audio-img' src={otm_pp} alt='pastor plight'/>
                     </div>
 
                     <h2>
