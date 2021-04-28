@@ -26,7 +26,7 @@ const AboutComponent = () => {
                 <p>
                 Second, I am completing my final year at the <a className='about-link' 
                 href='https://camd.northeastern.edu/journalism-at-northeastern/'>Northeastern University School of Journalism</a> in Boston. 
-                I have a passion for investigative and audio journalism, and I’m currently helping produce a WNYC and NPR 
+                I have a passion for investigative and audio journalism, and I previously helped produce a WNYC and NPR 
                 show called <a className='about-link' href='https://www.wnycstudios.org/podcasts/otm'>On the Media.</a> I have 
                 experience using Mailchimp to create email newsletters and I have a crippling fear of sports mascots.
                 </p>
