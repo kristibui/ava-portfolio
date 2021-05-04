@@ -46,7 +46,7 @@ const ListenComponent = () => {
 
                     <h2>
                         <a className='audio-headline' href='https://www.wnycstudios.org/podcasts/otm/segments/pastors-plight-address-vaccine-skepticism-black-communities-on-the-media?fbclid=IwAR1iw1FadvOreapQ-HYq6q1eIfe_FDqjI9pi4-tWebyY9hlGZDdqxtSTuBA'>
-                        A Pastor's Plight to Address Vaccine Skepticism in Black Communities"?
+                        A Pastor's Plight to Address Vaccine Skepticism in Black Communities
                         </a>
                     </h2>
                     <span>On The Media</span>
