@@ -6,6 +6,9 @@ import bg_deport from './bg_deport.jpeg';
 import bg_aar from './bg_aar.jpeg';
 import wgbh_mh from './wgbh_mh.jpeg';
 import wgbh_ah from './wgbh_ah.jpeg';
+import wsj_dw from './diversity_winners.jpeg';
+import wsj_bb from './wsj_bb.jpeg';
+import wsj_fj from './wsj_fj.jpeg';
 
 const ReadComponent = () => {
 
@@ -14,9 +17,63 @@ const ReadComponent = () => {
 
             <h1>Read</h1>
 
-            <p>Some of my written works below, including pieces from the <a className='article-headline' href='https://www.bostonglobe.com/'>Boston Globe</a> and <a className='article-headline' href='https://www.wbur.org/'>WBUR</a>.</p>
+            <p>Some of my written works below, including pieces 
+                from the <a className='article-headline' href='https://www.bostonglobe.com/'>Boston Globe</a> and <a className='article-headline' href='https://www.wsj.com/'>The Wall Street Journal</a>.</p>
             
             <div className='articles-container'>
+
+            <div className='article-sub-container'>
+
+                <div className='article-img-container'>
+                    <img className='article-img' src={wsj_fj} alt='federal judges unlawful'/>
+                </div>
+
+                <h2>
+                    <a className='article-headline' href='https://www.wsj.com/articles/hidden-interest-judges-financial-conflicts-graphic-11632834079'>
+                    Hidden Interests: The Financial Conflicts, Mapped
+                    </a>
+                </h2>
+                <span>The Wall Street Journal</span>
+
+                <p>The Wall Street Journal analyzed nearly a decade’s worth of legal and financial records and discovered 131 federal judges who unlawfully heard cases where they had a financial interest. See the Journal’s findings, including which federal judges violated the law, how many times they improperly heard cases, and what they have to say about it.
+                </p>
+                </div>
+
+            <div className='article-sub-container'>
+
+                <div className='article-img-container'>
+                    <img className='article-img' src={wsj_bb} alt='afghanistans falling man'/>
+                </div>
+
+                <h2>
+                    <a className='article-headline' href='https://www.wsj.com/articles/afghanistans-falling-man-the-17-year-old-soccer-star-who-plunged-from-a-u-s-military-jet-11629834591'>
+                    Afghanistan’s Falling Man: The 17-Year-Old Soccer Star Who Plunged From a U.S. Military Jet
+                    </a>
+                </h2>
+                <span>The Wall Street Journal</span>
+
+                <p>Zaki Anwari, part of a generation who never endured Taliban rule, saw no future in Afghanistan. Viral images of his death horrified the world. This is his story, reconstructed from interviews with friends, family and bystanders.
+                </p>
+                </div>
+
+                <div className='article-sub-container'>
+
+                    <div className='article-img-container'>
+                        <img className='article-img' src={wsj_dw} alt='diversity visa winners'/>
+                    </div>
+
+                    <h2>
+                        <a className='article-headline' href='https://www.wsj.com/articles/diversity-visa-winners-risk-losing-chance-to-come-to-u-s-11628946002'>
+                        Diversity Visa Winners Risk Losing Chance to Come to U.S.
+                        </a>
+                    </h2>
+                    <span>The Wall Street Journal</span>
+
+                    <p>Tens of thousands of families around the world are at risk of losing a rare opportunity to immigrate to the United States because of a pandemic-fueled backlog.
+                    </p>
+                </div>
+
+
 
                 <div className='article-sub-container'>
 

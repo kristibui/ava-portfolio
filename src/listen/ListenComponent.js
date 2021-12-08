@@ -6,6 +6,7 @@ import nhpr_b from './nhpr_b.jpg';
 import nhpr_cvd from './nhpr_cvd.jpg';
 import otm_pp from './pastor_plight.jpg';
 import otm_td from './two_day_otm.jpeg';
+import wsj_foe from './future_of_everything.jpeg';
 
 const ListenComponent = () => {
 
@@ -17,6 +18,23 @@ const ListenComponent = () => {
             <p>Some of my audio works below, including pieces from <a className='audio-headline' href='https://www.wnycstudios.org/podcasts/otm'>On The Media</a> and <a className='audio-headline' href='https://www.nhpr.org/'>New Hampshire Public Radio (NHPR)!</a></p>
 
             <div className='audio-container'>
+
+            <div className='audio-sub-container'>
+
+                <div className='audio-img-container'>
+                    <img className='audio-img' src={wsj_foe} alt='future of cybersecurity'/>
+                </div>
+
+                <h2>
+                    <a className='audio-headline' href='https://www.wsj.com/podcasts/wsj-the-future-of-everything/outhacking-the-hackers-the-future-of-cybersecurity/b000536c-56db-4e4b-9ae5-9ec95f462960'>
+                    Outhacking the Hackers: The Future of Cybersecurity
+                    </a>
+                </h2>
+                <span>The Wall Street Journal</span>
+
+                <p>A recent surge in high-profile cyber attacks has companies playing defense. Some are turning to ethical hackers to find software bugs before the bad guys do. But researchers are also developing new hardware - to try and stop hackers in their tracks.
+                </p>
+            </div>
 
             <div className='audio-sub-container'>
 
