@@ -17,24 +17,18 @@ const AboutComponent = () => {
                 <h1>Hi, I’m Ava.</h1>
 
                 <p>
-                Listen, I know what you’re wondering. How could such an experienced, 
-                trendy, impossibly attractive reporter be looking for work?
-                </p>
-                <p>
-                <b>First of all, you ask a lot of questions.</b>
-                </p>
-                <p>
-                Second, I am completing my final year at the <a className='about-link' 
-                href='https://camd.northeastern.edu/journalism-at-northeastern/'>Northeastern University School of Journalism</a> in Boston. 
-                I have a passion for investigative and audio journalism, and I previously helped produce a WNYC and NPR 
-                show called <a className='about-link' href='https://www.wnycstudios.org/podcasts/otm'>On the Media.</a> I have 
-                experience using Mailchimp to create email newsletters and I have a crippling fear of sports mascots.
+                I graduated from the <a className='about-link' 
+                href='https://camd.northeastern.edu/journalism-at-northeastern/'>Northeastern University School of Journalism</a> in 
+                Boston. I have a passion for investigative and audio journalism, and I 
+                previously helped produce a WNYC and NPR show 
+                called <a className='about-link' href='https://www.wnycstudios.org/podcasts/otm'>On the Media.</a>. As an intern 
+                at the <a className='about-link' href='https://www.wsj.com/'>Wall Street Journal</a>, I contributed to an investigative 
+                series exposing corruption in the federal court system, and I later 
+                helped cover the Taliban’s 2021 capture of Kabul.
                 </p>
 
                 <div className='learn-more'>
-
                     Interested in working with me? Want to chat? <a href='contact'>Contact me!</a>
-  
                 </div>
 
             </div>
