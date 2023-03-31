@@ -9,6 +9,14 @@ import wgbh_ah from './wgbh_ah.jpeg';
 import wsj_dw from './diversity_winners.jpeg';
 import wsj_bb from './wsj_bb.jpeg';
 import wsj_fj from './wsj_fj.jpeg';
+import nyt_tenn from './nyt_tenn.jpeg';
+import nyt_men from './nyt_men.jpeg';
+import nyt_jum from './nyt_jum.jpeg';
+import nyt_roe from './nyt_roe.jpeg';
+import nyt_mus from './nyt_muslim.jpeg';
+import nyt_ab from './nyt_ab.jpeg';
+
+import WorkCard from '../components/WorkCard/WorkCard';
 
 const ReadComponent = () => {
 
@@ -18,9 +26,58 @@ const ReadComponent = () => {
             <h1>Read</h1>
 
             <p>Some of my written works below, including pieces 
-                from the <a className='article-headline' href='https://www.bostonglobe.com/'>Boston Globe</a> and <a className='article-headline' href='https://www.wsj.com/'>The Wall Street Journal</a>.</p>
-            
+                from the <a className='article-headline' href='https://www.nytimes.com/by/ava-sasani'>The New York Times</a> and <a className='article-headline' href='https://www.wsj.com/'>The Wall Street Journal</a>.
+            </p>
             <div className='articles-container'>
+
+
+            <WorkCard 
+                imagePath={nyt_tenn}
+                articleLinkPath='https://www.nytimes.com/2023/03/24/us/tennessee-hiv-funding.html'
+                headline='Tennessee’s Rejection of $8.8 Million in Federal Funding Alarms H.I.V. Prevention Groups'
+                publisher='The New York Times'
+                body='The state plans to use state funds, which a spokeswoman for Gov. Bill Lee said would be more efficient than receiving federal dollars. Some organizations are concerned they will be cut off if they don’t align with his conservative politics.' 
+            />
+
+            <WorkCard 
+                imagePath={nyt_men}
+                articleLinkPath='https://www.nytimes.com/2023/03/24/us/tennessee-hiv-funding.html'
+                headline='Memphis, Through the Lens of Tyre Nichols'
+                publisher='The New York Times'
+                body='His photos, which he wrote were meant to “bring my viewers deep into what I am seeing,” reveal parts of the city some residents say they had forgotten.'
+                />
+
+            <WorkCard 
+                imagePath={nyt_jum}
+                articleLinkPath='https://www.nytimes.com/2022/11/30/us/abortion-clinic-illinois.html'
+                headline='When the Abortion Clinic Came to Town'
+                publisher='The New York Times'
+                body='After Roe fell, a sleepy college town in Southern Illinois found itself to be a crucial destination for abortion access. Not all of its residents are happy about it.'
+                />
+
+            <WorkCard 
+                imagePath={nyt_roe}
+                articleLinkPath='https://www.nytimes.com/2022/08/19/us/politics/louisiana-abortion-law.html'
+                headline='I’m Carrying This Baby Just to Bury It’: The Struggle to Decode Abortion Laws'
+                publisher='The New York Times'
+                body='At a Louisiana hospital, concerns about complying with new abortion bans in post-Roe America left a pregnant woman with a devastating diagnosis, but not an abortion.'
+                />            
+
+            <WorkCard 
+                imagePath={nyt_mus}
+                articleLinkPath='https://www.nytimes.com/2022/08/15/us/albuquerque-muslim-killings.html'
+                headline='Muslim Killings in Albuquerque Stir Sectarian Ghosts'
+                publisher='The New York Times'
+                body='An Afghan family struggled for a foothold in a new home in the U.S. Now one of them is charged with killing fellow Muslims.'
+                />  
+
+            <WorkCard 
+                imagePath={nyt_ab}
+                articleLinkPath='https://www.nytimes.com/2022/07/16/us/abortion-bans-children.html'
+                headline='What New Abortion Bans Mean for the Youngest Patients'
+                publisher='The New York Times'
+                body='One 10-year-old became the focus of debate, but more than 1,000 girls under 15 seek abortions each year. “How are we going to help the pregnant kids?”'
+                />  
 
             <div className='article-sub-container'>
 
@@ -178,8 +235,6 @@ const ReadComponent = () => {
                         <img className='article-img' src={bc} alt='Birth control'/>
                     </div>
 
-                    
-
                      <h2>
                         <a className='article-headline' href='https://www.wbur.org/commonhealth/2019/08/22/monthly-birth-control-pill-lyndra-gates'>
                             Birth Control Pill Of The Future May Only Need To Be Taken Once A Month
@@ -211,6 +266,8 @@ const ReadComponent = () => {
                         but existing evaluations leave questions about their effectiveness.
                     </p>
                 </div>
+
+            
             </div>
 
         </div>

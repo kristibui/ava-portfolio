@@ -8,6 +8,7 @@
 /** Photo styling **/
 .bio-container {
     flex-basis: 50%;
+    margin-left: 15px;
 }
 
 .bio-picture {

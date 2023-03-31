@@ -20,7 +20,7 @@ const ContactComponent = () => {
                 <div className='contact-link-container'>
                     
                     <span className='contact-text'>
-                        <a href='mailto:ava.sasani@globe.com'>ava.sasani@globe.com</a>
+                        <a href='mailto:ava.sasani2@gmail.com'>ava.sasani2@gmail.com</a>
                     </span>
 
                     <span className='contact-text'>
