@@ -5,15 +5,19 @@
 .articles-container {
     display: flex;
     flex-wrap: wrap;
-
+    gap: 30px;
 }
-
 
 .article-sub-container {
     display: flex;
     flex-direction: column;
     flex-basis: 30%;
-    margin-right: 30px;
+}
+
+@media screen and (max-width: 1100px) {
+    .article-sub-container {
+        flex-basis: 100%;
+    }
 }
 
 .article-img-container {
