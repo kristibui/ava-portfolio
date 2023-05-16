@@ -17,6 +17,12 @@
   padding: 80px 100px 30px 100px;
 }
 
+@media screen and (max-width: 600px) {
+  .container {
+    padding: 40px 50px 15px 50px;
+  }
+}
+
 h1, h2 {
   font-family: 'Merriweather';
 }

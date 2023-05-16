@@ -4,6 +4,11 @@
     justify-content: space-between;
 }
 
+.right-links {
+    display: flex;
+    gap: 30px
+}
+
 @media screen and (max-width: 800px) {
     .navbar {
         display: block;
@@ -11,8 +16,19 @@
 
     .right-links {
         margin-top: 20px;
+        gap: 0px;
     }
 }
+
+@media screen and (max-width: 600px) {
+    .right-links {
+      gap: 15px;
+    }
+
+    .nav-link {
+        font-size: 15px;
+    }
+  }
 
 /** Headline **/
 .nav-headline {
@@ -24,7 +40,6 @@
 
 /** Links **/
 .nav-link {
-    margin-right: 30px;
     font-size: 23px;
     font-family: OpenSans;
     color: black;
@@ -33,10 +48,6 @@
 
 .twitter-icon {
     color: black;
-}
-
-.right-links {
-    display: flex;
 }
 
 .portfolio-sub-links > ul {
