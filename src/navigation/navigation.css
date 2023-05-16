@@ -33,11 +33,15 @@
     display: none;
 }
 
+.hoverable-link:hover {
+    color: #8b1000 !important;
+}
+
 .portfolio-sub-links:hover {
     display: flex;
     flex-direction: column;
-    
 }
+
 
 .portfolio-sub-links:hover > ul {
     display: block;
