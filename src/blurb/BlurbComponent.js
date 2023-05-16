@@ -8,12 +8,11 @@ const BlurbComponent = () => {
 
             <div className='main-text-container'>
                 <div className='main-desc'>
-                    Ava Sasani is a journalist specializing in investigative storytelling.
+                    Ava Sasani is an audio and print journalist.
                 </div>
 
                 <div className='desc-subtext'>
-                    She is passionate about investigative and audio journalism, and is always looking to tell the real 
-                    stories of marginalized and underrepresented communities.
+                She covered abortion for The New York Times, and is always looking to tell the real stories of marginalized and underrepresented communities.
                 </div>
 
                 
