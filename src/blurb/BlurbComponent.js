@@ -12,7 +12,7 @@ const BlurbComponent = () => {
                 </div>
 
                 <div className='desc-subtext'>
-                She covered abortion for The New York Times, and is always looking to tell the real stories of marginalized and underrepresented communities.
+                    She covered abortion for The New York Times, and is always looking to tell the real stories of marginalized and underrepresented communities.
                 </div>
 
                 
