@@ -17,10 +17,10 @@ const AboutComponent = () => {
                 <h1>Hi, I’m Ava.</h1>
 
                 <p>
-                I covered abortion for <a className='about-link' target='_blank' href='https://www.nytimes.com/'>The New York Times</a> as a 2022-2023 
+                I covered abortion for <a rel='noreferrer' className='about-link' target='_blank' href='https://www.nytimes.com/'>The New York Times</a> as a 2022-2023 
                 reporting fellow, and published 
                 two front-page stories about life in post-Roe America. As an intern at 
-                the <a className='about-link' target='_blank' href='https://www.wsj.com/'>Wall Street Journal</a>, I contributed to an investigative series exposing corruption in the federal court system, and I later helped cover the Taliban’s 2021 capture of Kabul.
+                the <a className='about-link' target='_blank' rel='noreferrer' href='https://www.wsj.com/'>Wall Street Journal</a>, I contributed to an investigative series exposing corruption in the federal court system, and I later helped cover the Taliban’s 2021 capture of Kabul.
                 </p>
 
                 <div className='learn-more'>

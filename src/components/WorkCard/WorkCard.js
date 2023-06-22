@@ -10,7 +10,7 @@ const WorkCard = (content) => {
         </div>
 
         <h2>
-            <a className='article-headline' target='_blank' href={content.articleLinkPath}>
+            <a className='article-headline' rel='noreferrer' target='_blank' href={content.articleLinkPath}>
                 {content.headline}
             </a>
         </h2>

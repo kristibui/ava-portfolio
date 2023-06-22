@@ -13,7 +13,7 @@ const GraphicsComponent = () => {
         <h1>Graphics</h1>
 
         <p>Some of my data visualization journalism below, including pieces 
-            from the <a className='article-headline' target='_blank' href='https://www.nytimes.com/by/ava-sasani'>The New York Times</a> and <a className='article-headline' href='https://www.wsj.com/news/author/ava-sasani'>The Wall Street Journal</a>.
+            from the <a className='article-headline' rel='noreferrer' target='_blank' href='https://www.nytimes.com/by/ava-sasani'>The New York Times</a> and <a className='article-headline' href='https://www.wsj.com/news/author/ava-sasani'>The Wall Street Journal</a>.
         </p>
         <div className='articles-container'>
 

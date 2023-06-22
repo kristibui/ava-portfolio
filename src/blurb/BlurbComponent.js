@@ -12,7 +12,7 @@ const BlurbComponent = () => {
                 </div>
 
                 <div className='desc-subtext'>
-                She covered national news for the <a className='about-link' target='_blank' href='https://www.nytimes.com/'>New York Times</a> as a 2022-2023 fellow, and is always looking for new reporting opportunities.
+                She covered national news for the <a className='about-link' rel='noreferrer' target='_blank' href='https://www.nytimes.com/'>New York Times</a> as a 2022-2023 fellow, and is always looking for new reporting opportunities.
                 </div>
 
                 
