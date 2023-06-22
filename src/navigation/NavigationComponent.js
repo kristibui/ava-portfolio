@@ -22,7 +22,7 @@ const NavigationComponent = () => {
 
                 <a className='nav-link hoverable-link' href="/about">About</a>
                 <a className='nav-link hoverable-link' href="/contact">Contact</a>
-                <a className='twitter-icon hoverable-link' href="https://twitter.com/AvaSasani" rel='noreferrer' target="_blank" rel="noopener noreferrer">
+                <a className='twitter-icon hoverable-link' href="https://twitter.com/AvaSasani" target="_blank" rel="noopener noreferrer">
                     <FontAwesomeIcon icon={faTwitter} size='2x'/>
                 </a>
             </div>
