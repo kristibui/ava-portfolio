@@ -15,6 +15,10 @@ import nyt_jum from './nyt_jum.jpeg';
 import nyt_roe from './nyt_roe.jpeg';
 import nyt_mus from './nyt_muslim.jpeg';
 import nyt_ab from './nyt_ab.jpeg';
+import tv_tt from './tt.png';
+import nyt_st from './nyt_st.jpeg';
+import nyt_aw from './nyt_aw.jpeg';
+import nyt_doc from './nyt_doc.jpeg';
 
 import WorkCard from '../components/WorkCard/WorkCard';
 
@@ -26,10 +30,41 @@ const ReadComponent = () => {
             <h1>Read</h1>
 
             <p>Some of my written works below, including pieces 
-                from the <a className='article-headline' href='https://www.nytimes.com/by/ava-sasani'>The New York Times</a> and <a className='article-headline' href='https://www.wsj.com/'>The Wall Street Journal</a>.
+                from the <a className='article-headline' href='https://www.nytimes.com/by/ava-sasani'>The New York Times</a> and <a className='article-headline' href='https://www.wsj.com/news/author/ava-sasani'>The Wall Street Journal</a>.
             </p>
             <div className='articles-container'>
 
+            <WorkCard 
+                imagePath={nyt_aw}
+                articleLinkPath='https://www.nytimes.com/2023/05/29/us/afghan-war-refugees.html?unlocked_article_code=FxW9xTwHLKT2PefBYol3bwvTfzmPHCBbTB_AJBJDFD3zKoo_0j7zUdqPgSj8WUAonDFrglo5vXgYF9p543x6ekQdXqKlQ4B5cEzca89n0oEk5_rQKMx8CCNkRZER1OBU3gMqV_MH3-no4qGIRlpD3xCZ_VaqnpCsQdUDr4IogMLDgsZyynBi3I5jsHSaBqjgawg4-S4EAtAk98RHziA4ohVxACKq-jYgTvBv2XM0w7biY_KAx9x1Q5-rBuhmeebF-u2Rl4HOdf6WnckrhUlt0qnvHUpxAop9nB1Ygh4CDbs-FS63GkWLXI8w8JcwNMZH4jk8KaNYZhN_&smid=url-share'
+                headline='Afghan Women Who Aided U.S. Military Wait for Asylum in America'
+                publisher='The New York Times'
+                body='Members of the Afghan Army’s all-female platoon are some of the roughly 70,000 Afghans living in the United States whose temporary status has left them with an uncertain future.' 
+            />
+
+            <WorkCard 
+                imagePath={nyt_doc}
+                articleLinkPath='https://www.nytimes.com/2023/05/26/us/indiana-doctor-abortion-reprimand.html?unlocked_article_code=fOt6JJD8ta1kP4b98AxZBb06ZJZgeo0276EU1UyOglk53bNYRl1rFYxkdrf6z9fZChGGMIoWUHYiWxqoDPtXBASw3PkhWxrR0RZVAc2IQx3jEZH0kHdM7cE4dCKMUWuCKn9W4bcQbQ1ao6D5qwtcZSInEGnQjlPdrCRrFiE2z8fXXfwuKA5_Aw8-ydJSJgZntWsgR_bdpTUCcnan3J4EXjRMyTUkVDO2mVsYn6JIILfbXTHmMMI2i0J6umk_TVbi6LzL4k-4-aRju312T1nCBzoy1K3x3PaXXB4OasLhTRB04sMtH001Pr1TqBO-z4B6kvMnSH8j2WzAGVHxJ5hBwz77Y0Q7Q54&smid=url-share'
+                headline='Indiana Reprimands Doctor Who Provided Abortion to 10-Year-Old Rape Victim'
+                publisher='The New York Times'
+                body='Dr. Caitlin Bernard violated the privacy of her young patient by discussing the girl’s case with a reporter, the state’s medical board ruled' 
+            />
+
+            <WorkCard 
+                imagePath={nyt_st}
+                articleLinkPath='https://www.nytimes.com/2023/05/16/business/strippers-union-labor.html?unlocked_article_code=oTU9MspW3NpiP_v2al71D7G_eSJAxEcyjCiGazcxgL7RFPdKTU1SV3Hzl-rpzpbdljuP1sO3XKyGx6zC6AfofXDdBmV1B--WO1eG1AANDpMUDTCrDowUKFSHyDHiPbiCkLM4U5uhF179CY1-S0BqfXFW3gRSjU9_AKG2c2sM-xB6FMneFKXkIrk7_mq4AwyU_XNE7i6JgT4eZNWE3T8U6obyc_pEg6v5UblAOYprFsfH-aUS1hXhd7x-6SFDqXa2sczHMrAHh7DrK50AlZz-sSVRHZQBtDUjdT7YbwO70nPX0OttwKL9gq6wMQHGG04mOro7--6FL044Iou6xKZRLts&smid=url-share'
+                headline='Strippers Unionize at California Club After Long Fight'
+                publisher='The New York Times'
+                body='The club agreed not to block the dancers from affiliating with Actors’ Equity in what appears to be the industry’s first unionization since the 1990s.' 
+            />
+
+            <WorkCard 
+                imagePath={tv_tt}
+                articleLinkPath='https://www.teenvogue.com/story/adoption-tiktok-community'
+                headline='Adoption TikTok: Building Community and Critiquing the U.S. Adoption System'
+                publisher='Teen Vogue'
+                body='Adoptees are told to just be grateful that we were chosen. And yet so many of us are struggling.' 
+            />
 
             <WorkCard 
                 imagePath={nyt_tenn}
