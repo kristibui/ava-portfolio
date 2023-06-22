@@ -6,7 +6,6 @@ const NavigationComponent = () => {
 
     return(
         <div className='navbar'>
-
             <div>
                 <a className='nav-headline' href='/'>Ava Sasani</a>
             </div>
@@ -17,6 +16,7 @@ const NavigationComponent = () => {
                     <ul>
 						<li><a className='hoverable-link' href="/read">Read</a></li>
 						<li><a className='hoverable-link' href="/listen">Listen</a></li>
+                        <li><a className='hoverable-link' href="/graphics">Graphics</a></li>
 					</ul>
                 </div>
 

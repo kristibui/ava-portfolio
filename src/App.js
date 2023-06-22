@@ -8,6 +8,7 @@ import AboutComponent from './about/AboutComponent';
 import ContactComponent from './contact/ContactComponent';
 import ReadComponent from './read/ReadComponent';
 import ListenComponent from './listen/ListenComponent';
+import GraphicsComponent from './graphics/GraphicsComponent';
 
 function App() {
 
@@ -21,6 +22,7 @@ function App() {
           <Route exact path="/listen" component={ListenComponent}/>
           <Route exact path='/about' component={AboutComponent}/>
           <Route exact path="/contact" component={ContactComponent}/>
+          <Route exact path="/graphics" component={GraphicsComponent}/>
       </Router>
       
       <FooterComponent></FooterComponent>

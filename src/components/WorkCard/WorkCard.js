@@ -6,11 +6,11 @@ const WorkCard = (content) => {
         <div className='article-sub-container'>
                     
         <div className='article-img-container'>
-            <img className='article-img' src={content.imagePath} alt='Counterrorism program'/>
+            <img className='article-img' src={content.imagePath} alt='content image'/>
         </div>
 
         <h2>
-            <a className='article-headline' href={content.articleLinkPath}>
+            <a className='article-headline' target='_blank' href={content.articleLinkPath}>
                 {content.headline}
             </a>
         </h2>
