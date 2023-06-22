@@ -6,7 +6,7 @@ const WorkCard = (content) => {
         <div className='article-sub-container'>
                     
         <div className='article-img-container'>
-            <img className='article-img' src={content.imagePath} alt='content image'/>
+            <img className='article-img' src={content.imagePath} alt='this is the journal main content'/>
         </div>
 
         <h2>
