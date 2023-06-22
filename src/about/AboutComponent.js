@@ -17,14 +17,10 @@ const AboutComponent = () => {
                 <h1>Hi, I’m Ava.</h1>
 
                 <p>
-                I graduated from the <a className='about-link' 
-                href='https://camd.northeastern.edu/journalism-at-northeastern/'>Northeastern University School of Journalism</a> in 
-                Boston. I have a passion for investigative and audio journalism, and I 
-                previously helped produce a WNYC and NPR show 
-                called <a className='about-link' href='https://www.wnycstudios.org/podcasts/otm'>On the Media</a>. As an intern 
-                at the <a className='about-link' href='https://www.wsj.com/'>Wall Street Journal</a>, I contributed to an investigative 
-                series exposing corruption in the federal court system, and I later 
-                helped cover the Taliban’s 2021 capture of Kabul.
+                I covered abortion for <a className='about-link' target='_blank' href='https://www.nytimes.com/'>The New York Times</a> as a 2022-2023 
+                reporting fellow, and published 
+                two front-page stories about life in post-Roe America. As an intern at 
+                the <a className='about-link' target='_blank' href='https://www.wsj.com/'>Wall Street Journal</a>, I contributed to an investigative series exposing corruption in the federal court system, and I later helped cover the Taliban’s 2021 capture of Kabul.
                 </p>
 
                 <div className='learn-more'>
