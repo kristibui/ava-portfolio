@@ -19,6 +19,11 @@ import tv_tt from './tt.png';
 import nyt_st from './nyt_st.jpeg';
 import nyt_aw from './nyt_aw.jpeg';
 import nyt_doc from './nyt_doc.jpeg';
+import visa_g from './visa_students.jpeg'
+import ohio_g from './ohio_ab.jpeg'
+import biden_g from './biden_g.jpeg'
+import ron_g from './ron_g.jpeg'
+import abortion_g from './abortion_g.jpeg'
 
 import WorkCard from '../components/WorkCard/WorkCard';
 
@@ -33,6 +38,46 @@ const ReadComponent = () => {
                 from the <a className='article-headline' href='https://www.nytimes.com/by/ava-sasani'>The New York Times</a> and <a className='article-headline' href='https://www.wsj.com/news/author/ava-sasani'>The Wall Street Journal</a>.
             </p>
             <div className='articles-container'>
+
+            <WorkCard 
+                imagePath={visa_g}
+                articleLinkPath='https://www.theguardian.com/us-news/2023/aug/19/denying-visa-afghanistan-university-student'
+                headline="‘My goals in life vanished’: Afghan students rocked by US visa denials"
+                publisher='The Guardian'
+                body='Students trying to attend university in the US tell of their frustration after being rejected over the ‘immigrant intent’ test' 
+            />
+
+            <WorkCard 
+                imagePath={ohio_g}
+                articleLinkPath='https://www.theguardian.com/us-news/2023/aug/09/ohio-issue-1-abortion-rights-win'
+                headline="‘Ohio saw through the con’: abortion rights advocates celebrate Issue 1 result"
+                publisher='The Guardian'
+                body='While anti-abortion activists vow to ‘continue the fight’, supporters of abortion retain hope for November election' 
+            />
+
+            <WorkCard 
+                imagePath={biden_g}
+                articleLinkPath='https://www.theguardian.com/us-news/2023/aug/07/biden-administration-lawsuit-cbp-one-app'
+                headline="Biden administration sued over asylum appointment app that ‘does not work’"
+                publisher='The Guardian'
+                body='CBP One requirement creates unlawful hurdle for migrants on app riddled with glitches and indecipherable error messages, suit says' 
+            />
+
+            <WorkCard 
+                imagePath={ron_g}
+                articleLinkPath='https://www.theguardian.com/us-news/2023/jul/28/ron-desantis-sued-voting-rights-group'
+                headline="Ron DeSantis sued over bid to restrict voting rights for people with past convictions"
+                publisher='The Guardian'
+                body='Florida Rights Restoration Coalition says governor has caused confusion and fear despite amendment that lifted lifetime ban' 
+            />
+
+            <WorkCard 
+                imagePath={abortion_g}
+                articleLinkPath='https://www.theguardian.com/us-news/2023/jul/13/anti-abortion-language-restrictions-bans-roe-v-wade'
+                headline="Confuse and mislead: US anti-abortion groups’ strategy to soften extreme bans"
+                publisher='The Guardian'
+                body='Critics decry ‘vague language and misinformation’ as Susan B Anthony claims US does not have true ‘bans’ since exceptions exist' 
+            />
 
             <WorkCard 
                 imagePath={nyt_aw}
