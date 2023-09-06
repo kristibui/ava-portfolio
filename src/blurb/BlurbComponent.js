@@ -21,7 +21,7 @@ const BlurbComponent = () => {
                 </a>
             </div>
 
-            <div className='bio-container'>
+            {/* <div className='bio-container'>
                 <div className='bio-picture'>
                     <img className='ava-pic'
                         src={headshot}
@@ -29,7 +29,7 @@ const BlurbComponent = () => {
                 </div>
             </div>
 
-
+ */}
 
         </div>
     )
