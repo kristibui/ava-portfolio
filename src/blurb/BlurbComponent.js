@@ -1,5 +1,5 @@
 import './blurb.css';
-import headshot from './ava_headshot.jpg';
+
 
 const BlurbComponent = () => {
 
@@ -20,16 +20,6 @@ const BlurbComponent = () => {
                     <button className='learn-more-btn'>Learn More</button>
                 </a>
             </div>
-
-            {/* <div className='bio-container'>
-                <div className='bio-picture'>
-                    <img className='ava-pic'
-                        src={headshot}
-                        alt='Ava in the snow'></img>
-                </div>
-            </div>
-
- */}
 
         </div>
     )
