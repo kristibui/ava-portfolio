@@ -25,6 +25,9 @@ import biden_g from './biden_g.jpeg'
 import ron_g from './ron_g.jpeg'
 import abortion_g from './abortion_g.jpeg'
 
+import la_vox from './la_vox.jpeg'
+import trans_gd from './trans_gd.jpeg'
+
 import WorkCard from '../components/WorkCard/WorkCard';
 
 const ReadComponent = () => {
@@ -34,10 +37,26 @@ const ReadComponent = () => {
 
             <h1>Read</h1>
 
-            <p>Some of my written works below, including pieces 
-                from the <a className='article-headline' href='https://www.nytimes.com/by/ava-sasani'>The New York Times</a> and <a className='article-headline' href='https://www.wsj.com/news/author/ava-sasani'>The Wall Street Journal</a>.
+            <p>Some of my print clips below, including pieces 
+                from <a className='article-headline' href='https://www.nytimes.com/by/ava-sasani'>The New York Times</a> and <a className='article-headline' href='https://www.wsj.com/news/author/ava-sasani'>The Wall Street Journal</a>.
             </p>
             <div className='articles-container'>
+
+            <WorkCard 
+                imagePath={la_vox}
+                articleLinkPath='https://www.vox.com/climate/2023/11/1/23940322/lahaina-wild-fire-schools-toxic-waste-cleanup'
+                headline="Lahaina schools are open again. Parents worry they’re ridden with toxic waste."
+                publisher='Vox'
+                body='Hawai‘i education officials want to return to normal. But some parents want more time to heal.' 
+            />
+
+            <WorkCard 
+                imagePath={trans_gd}
+                articleLinkPath='https://www.theguardian.com/us-news/2024/jan/30/ohio-ban-children-transgender-gender-affirming-care?CMP=share_btn_tw'
+                headline="‘I’m so scared for my friends’: trans kids on Ohio’s ban on gender-affirming care"
+                publisher='The Guardian'
+                body='Families who fought for children’s healthcare rights say they are considering leaving the state' 
+            />
 
             <WorkCard 
                 imagePath={visa_g}
@@ -121,7 +140,7 @@ const ReadComponent = () => {
 
             <WorkCard 
                 imagePath={nyt_men}
-                articleLinkPath='https://www.nytimes.com/2023/03/24/us/tennessee-hiv-funding.html'
+                articleLinkPath='https://www.nytimes.com/2023/03/02/us/tyre-memphis-photos.html?unlocked_article_code=1.Rk0.JDc7.RctMYt-FGxmq&bgrp=c&smid=url-share'
                 headline='Memphis, Through the Lens of Tyre Nichols'
                 publisher='The New York Times'
                 body='His photos, which he wrote were meant to “bring my viewers deep into what I am seeing,” reveal parts of the city some residents say they had forgotten.'

@@ -15,7 +15,7 @@ const ListenComponent = () => {
 
             <h1>Listen</h1>
 
-            <p>Some of my audio works below, including pieces from <a className='audio-headline' href='https://www.wnycstudios.org/podcasts/otm'>On The Media</a> and <a className='audio-headline' href='https://www.nhpr.org/'>New Hampshire Public Radio (NHPR)!</a></p>
+            <p>Some of my audio clips below, including pieces from <a className='audio-headline' href='https://www.wnycstudios.org/podcasts/otm'>On The Media</a> and <a className='audio-headline' href='https://www.nhpr.org/'>New Hampshire Public Radio (NHPR).</a></p>
 
             <div className='audio-container'>
 
